@@ -1,8 +1,6 @@
 # Kinotic for Codex
 
-A Codex plugin adapted from [Kinotic's Claude plugin](https://github.com/kinotic-ai/claude-plugin)
-at commit `06773b69146d9b177a89f9144cb3cf357f17d858` (v0.6.8).
-It packages the Kinotic OS MCP connection and workflows for creating applications,
+A Codex plugin that packages the Kinotic OS MCP connection and workflows for creating applications,
 entities and repositories, services, frontends, and verifying push-to-deploy releases.
 
 ## Install
