@@ -30,10 +30,8 @@ The default endpoint is **the development environment**:
 `https://dev-api.kinotic.ai/mcp`, portal `https://dev-portal.kinotic.ai`.
 The setup skill guides sign-in, GitHub linking, and tool discovery.
 
-**Operator prerequisite:** Kinotic must allow the Codex OAuth client ID. Existing
-Claude support alone does not establish this. The setup skill explains CIMD metadata
-IDs, callbacks, and issuer settings. Live OAuth compatibility has not been verified
-with a signed-in Kinotic account. No credentials are bundled.
+After installing, run the setup skill and sign in to Kinotic in your browser.
+Approve the connection to give Codex access to your Kinotic tools.
 
 For a different environment, edit `plugins/kinotic/.mcp.json` before installing, or
 configure a separate standalone connection. Preserve the chosen endpoint throughout

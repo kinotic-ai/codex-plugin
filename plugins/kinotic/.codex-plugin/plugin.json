@@ -1,6 +1,6 @@
 {
   "name": "kinotic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build Kinotic apps with Codex: create projects, model entities, write services and frontends, and verify deployments.",
   "author": {
     "name": "Kinotic AI",
