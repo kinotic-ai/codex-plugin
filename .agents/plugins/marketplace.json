@@ -1,0 +1,20 @@
+{
+  "name": "kinotic-codex",
+  "interface": {
+    "displayName": "Kinotic for Codex"
+  },
+  "plugins": [
+    {
+      "name": "kinotic",
+      "source": {
+        "source": "local",
+        "path": "./plugins/kinotic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

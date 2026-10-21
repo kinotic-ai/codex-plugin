@@ -1,0 +1,23 @@
+{
+  "name": "kinotic",
+  "version": "0.1.0",
+  "description": "Build Kinotic apps with Codex: create projects, model entities, write services and frontends, and verify deployments.",
+  "author": {
+    "name": "Kinotic AI",
+    "url": "https://kinotic.ai"
+  },
+  "homepage": "https://kinotic.ai",
+  "repository": "https://github.com/kinotic-ai/codex-plugin",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Kinotic",
+    "shortDescription": "Build and deploy Kinotic applications"
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md"
+    }
+  }
+}

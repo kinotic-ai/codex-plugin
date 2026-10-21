@@ -1,0 +1,9 @@
+Kinotic for Codex
+Derived from https://github.com/kinotic-ai/claude-plugin
+Upstream commit: 06773b69146d9b177a89f9144cb3cf357f17d858 (version 0.6.8)
+Upstream license: Apache-2.0. See LICENSE.
+
+Changes made 2026-10-21: Codex plugin manifest and marketplace, Codex OAuth/setup
+workflow, replacement of Claude-specific onboarding, authorization-aware release
+guidance, and a Codex new-app entry skill. Kinotic technical guidance is retained
+from the upstream snapshot and must be checked against the actual installed SDK.
